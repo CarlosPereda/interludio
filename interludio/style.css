@@ -1,0 +1,113 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-image: url("Images/Recurso 9.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.first-menu{
+    position: absolute;
+    margin-top: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 92%;
+}
+
+.obj-container{
+    width: 24%;
+    margin: 0;
+}
+
+.second-menu{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    width: 92%
+}
+
+.isotipo-invertido{
+    -webkit-filter: invert(90%); filter: invert(90%);
+}
+
+.aprendizaje {
+    text-align: left;
+}
+
+.isotipo {
+    text-align: center;
+}
+
+.ayuda {
+    text-align: right;
+}
+
+.stream{
+    text-align: left;
+}
+
+.contacto{
+    text-align: right;
+}
+
+.interludio{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.aprendizaje > img {
+    width: 56%;
+}
+
+.ayuda > a > img {
+    width: 29%;
+}
+
+.stream > a > img {
+    width: 34%;
+}
+
+.contacto > img {
+    width: 45%;
+}
+
+.isotipo > a > img{
+    width: 20%;
+}
+
+.interludio > img{
+    width: 72%;
+    margin: 0;
+}
+
+.wrapper{
+
+    width: 90%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+}
