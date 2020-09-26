@@ -12,6 +12,7 @@ body, html {
     
     display: flex;
     justify-content: center;
+    align-content: center;
     flex-wrap: wrap;
 }
 
@@ -25,7 +26,7 @@ body, html {
     width: 92%;
 }
 
-.obj-container{
+.menu-container{
     width: 24%;
     margin: 0;
 }
@@ -48,13 +49,14 @@ body, html {
 
 .aprendizaje {
     text-align: left;
+
 }
 
 .isotipo {
     text-align: center;
 }
 
-.ayuda {
+.apoyo {
     text-align: right;
 }
 
@@ -73,22 +75,6 @@ body, html {
     align-items: center;
 }
 
-.aprendizaje > img {
-    width: 56%;
-}
-
-.ayuda > a > img {
-    width: 29%;
-}
-
-.stream > a > img {
-    width: 34%;
-}
-
-.contacto > img {
-    width: 45%;
-}
-
 .isotipo > a > img{
     width: 20%;
 }
@@ -98,16 +84,72 @@ body, html {
     margin: 0;
 }
 
-.wrapper{
-
+.stream-wrapper{
     width: 90%;
-
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 28px;
+p, a{
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+.info-container > p, a {
+    font-size: 22px;
+    margin: 0;
+}
+
+.menu-container > a{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.apoyo-wrapper{
+    width: 500px;
+    height: 60%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info-container{
+    background-color: white;
+    width: 100%;
+    height: 17%;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first{
+    height: 40%;
+    flex-wrap: wrap;
+}
+
+.QR{
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 550px) {
+    .menu-container > a {
+        font-size: 15px;
+    }
+    
+    .info-container > p {
+      font-size: 15px;
+    }
+
+    .info-container{
+        width: 90%;
+    }
 }
