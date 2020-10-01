@@ -191,7 +191,7 @@ p, a{
         width: 50%;
     }
 
-    .infoContact > p, a {
+    .infoContact > p, .infoContact > a {
         margin-top: 150px;
         font-size: 25px;
         bottom: 0;
