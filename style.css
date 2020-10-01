@@ -124,9 +124,10 @@ p, a{
     text-transform: uppercase;
 }
 
-.apoyo-wrapper{
+.apoyoWrapper{
     width: 500px;
     height: 60%;
+    margin: 0;
 
     display: flex;
     align-items: center;
