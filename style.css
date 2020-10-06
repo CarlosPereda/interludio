@@ -201,4 +201,12 @@ p, a{
     .apoyoWrapper{
         margin-top: 120px;
     }
+    
+    .stream-wrapper{
+    width: 90%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
 }
